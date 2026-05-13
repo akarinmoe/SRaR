@@ -1,5 +1,11 @@
 # SRaR: Step-wise Rubric Rewards for LLM Reasoning
 
+<p align="center">
+  <a href=""><img src="https://img.shields.io/badge/arxiv-darkred?style=for-the-badge&logo=arxiv" alt="arXiv"></a>&nbsp;
+  <a href=""><img src="https://img.shields.io/badge/🤗-datasets%20and%20weights-yellow?style=for-the-badge" alt="Datasets and Weights"></a>&nbsp;
+  <a href="https://github.com/akarinmoe/SRaR"><img src="https://img.shields.io/badge/code-blue?style=for-the-badge&logo=github" alt="Code"></a>
+</p>
+
 This repository contains the official implementation of **SRaR (Step-wise Rubrics as Rewards)**, an RLVR framework that delivers fine-grained, step-level rubric supervision during reinforcement learning training for LLM reasoning.
 
 <p align="center">
