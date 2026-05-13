@@ -1,0 +1,16 @@
+working_dir: ./
+excludes: ["/.git/", "/ckpts/", "/swanlog/", "*.safetensors", "*.bin"]
+env_vars:
+  TORCH_NCCL_AVOID_RECORD_STREAMS: "1"
+  CUDA_DEVICE_MAX_CONNECTIONS: "1"
+  HCCL_HOST_SOCKET_PORT_RANGE: "auto"
+  HCCL_NPU_SOCKET_PORT_RANGE: "auto"
+  SWANLAB_API_KEY: ""
+  SWANLAB_PROJECT: "SRaR"
+  SWANLAB_WORKSPACE: ""
+  no_proxy: "10.0.0.0/8,localhost,127.0.0.1"
+  NO_PROXY: "10.0.0.0/8,localhost,127.0.0.1"
+  http_proxy: ""
+  https_proxy: ""
+  HTTP_PROXY: ""
+  HTTPS_PROXY: ""

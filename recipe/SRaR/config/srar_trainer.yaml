@@ -1,0 +1,37 @@
+hydra:
+  searchpath:
+    - file://verl/trainer/config
+
+defaults:
+  - ppo_trainer
+  - _self_
+
+data:
+  gen_batch_size: ${data.train_batch_size}
+
+reward:
+  reward_manager:
+    name: SRaRRewardManager
+    source: importlib
+    module:
+      _target_: verl.trainer.config.config.ModuleConfig
+      path: recipe/SRaR/reward_manager.py
+      name: SRaRRewardManager
+  reward_kwargs:
+    judge_url: ${oc.env:JUDGE_URL,}
+    judge_model: ${oc.env:JUDGE_MODEL,}
+    r_sug: 0.8
+    r_pit: -1.0
+    r_bon: 1.0
+    format_weight: 0.1
+
+algorithm:
+  adv_estimator: srar
+  filter_groups:
+    _target_: verl.trainer.config.FilterGroupsConfig
+    enable: False
+    metric: null
+    max_num_gen_batches: 0
+
+trainer:
+  project_name: verl-srar
