@@ -89,7 +89,7 @@ An OpenAI-compatible LLM judge service is required. Set `JUDGE_URL` and `JUDGE_M
 recipe/SRaR/
   reward_manager.py         # RaR/SRaR reward managers with LLM judge
   srar_advantage.py         # Decoupled advantage estimator (SRaR) + GRPO (RaR)
-  srar_ray_trainer.py       # Ray trainers
+  srar_ray_trainer.py       # Ray trainer
   main_srar.py / main_rar.py
   preprocess_data.py
   run_srar.sh / run_rar.sh
