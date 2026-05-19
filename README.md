@@ -1,7 +1,7 @@
 # SRaR: Step-wise Rubric Rewards for LLM Reasoning
 
 <p align="center">
-  <a href=""><img src="https://img.shields.io/badge/arxiv-darkred?style=for-the-badge&logo=arxiv" alt="arXiv"></a>&nbsp;
+  <a href="https://arxiv.org/abs/2605.17291"><img src="https://img.shields.io/badge/arxiv-darkred?style=for-the-badge&logo=arxiv" alt="arXiv"></a>&nbsp;
   <a href="https://huggingface.co/collections/akarinmoe/srar"><img src="https://img.shields.io/badge/🤗-datasets%20and%20weights-yellow?style=for-the-badge" alt="Datasets and Weights"></a>&nbsp;
   <a href="https://github.com/akarinmoe/SRaR"><img src="https://img.shields.io/badge/code-blue?style=for-the-badge&logo=github" alt="Code"></a>
 </p>
@@ -98,7 +98,17 @@ recipe/SRaR/
 
 ## Citation
 
-TBD
+```bibtex
+@misc{xie2026stepwiserubricrewardsllm,
+      title={Step-wise Rubric Rewards for LLM Reasoning}, 
+      author={Weichu Xie and Haozhe Zhao and Wenpu Liu and Yongfu Zhu and Liang Chen and Minghao Ye and Zirong Chen and Yuqi Xu and Shuai Dong and Ziyue Wang and Xinbo Xu and Kean Shi and Ruoyu Wu and Xiaoying Zhang and Wenqi Shao and Baobao Chang and Nan Duan and Jiaqi Wang},
+      year={2026},
+      eprint={2605.17291},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.17291}, 
+}
+```
 
 ## Acknowledgements
 
