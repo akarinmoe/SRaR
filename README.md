@@ -99,14 +99,11 @@ recipe/SRaR/
 ## Citation
 
 ```bibtex
-@misc{xie2026stepwiserubricrewardsllm,
-      title={Step-wise Rubric Rewards for LLM Reasoning}, 
-      author={Weichu Xie and Haozhe Zhao and Wenpu Liu and Yongfu Zhu and Liang Chen and Minghao Ye and Zirong Chen and Yuqi Xu and Shuai Dong and Ziyue Wang and Xinbo Xu and Kean Shi and Ruoyu Wu and Xiaoying Zhang and Wenqi Shao and Baobao Chang and Nan Duan and Jiaqi Wang},
-      year={2026},
-      eprint={2605.17291},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2605.17291}, 
+@article{xie2026step,
+  title={Step-wise Rubric Rewards for LLM Reasoning},
+  author={Xie, Weichu and Zhao, Haozhe and Liu, Wenpu and Zhu, Yongfu and Chen, Liang and Ye, Minghao and Chen, Zirong and Xu, Yuqi and Dong, Shuai and Wang, Ziyue and others},
+  journal={arXiv preprint arXiv:2605.17291},
+  year={2026}
 }
 ```
 
